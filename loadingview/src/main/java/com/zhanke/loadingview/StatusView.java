@@ -386,4 +386,9 @@ public class StatusView extends FrameLayout {
         addView(contentView);
     }
 
+    public void addContentView(@Nullable View contentView){
+        setContentView(contentView);
+        addView(contentView);
+    }
+
 }
